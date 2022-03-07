@@ -14,15 +14,18 @@
     <h1>New Customer Information</h1>
 
     <form action="">
-      <input type="file" id="myFile" name="filename">
-        <br>
-        <br>
-        <textarea id="general" name="general" rows="20" cols="50" placeholder="Enter customer name and details">         
+        <label for="custName">Customer Name:</label>
+        <input type="text" id="custName" name="custName" placeholder="First and Last Name"><br><br>
+        <textarea id="general" name="general" style="width: 500px; height: 250px;" placeholder="Customer Details">         
         </textarea>
         <br>
+        <input type="file" id="myFile" name="filename">
         <br>
-        
-        <input type="submit" value="Submit">
+        <br>
+        <div style="text-align: right; padding-right: 600px;">
+          <input type="submit" value="Submit">
+          <input type="button" value="Cancel">
+        </div>
       </form>
 
 </body>
