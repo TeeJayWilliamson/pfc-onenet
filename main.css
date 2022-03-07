@@ -103,3 +103,12 @@ iframe {
       padding: 7px 25px;
       display: inline-block;
   }
+
+  .containers {
+    display: flex;
+  }
+  .profiles {
+    flex-basis: 500px;
+    height: 200px;
+    margin: 5px;
+  }

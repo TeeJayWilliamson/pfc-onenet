@@ -1,29 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PFC OneNet</title>
-  <link rel="stylesheet" href="main.css">
-</head>
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PFC OneNet</title>
+    <link rel="stylesheet" href="main.css">
+    </head>
 
-<body>
+    <body>
+        <br>
+        <br>
+        <br>
+        <div class="containers">
+            <div class="profiles sidenav">
+                <ul>
+                    <a href="newcust.html" target="custFrame" style="font-size:medium;">Add Customer</a>
+                    <br>
+                    <a href="cust1.html" target="custFrame"><li>Customer 1</li></a>
+                    <a href="cust2.html" target="custFrame"><li>Customer 2</li></a>
+                </ul>    
+            </div>
 
-    <ul>
-        <li>Add new Customer</li>
-
-        <li>Customer 1</li>
-        <li>Customer 2</li>
-    </ul>
-
-  <div style="padding-left: 180px;">
-    <iframe name="iFrame">
-      title="iFrame"
-      width="300"
-      height="200"
-    </iframe>
-  </div>
-</body>
+            <div class="profiles" >
+                <iframe name="custFrame" style="height: 1500px; width: 500px; padding-left: 250px;">
+                title="custFrame"
+                </iframe>
+            </div>
+        </div>
+        
+    </body>
 </html>
